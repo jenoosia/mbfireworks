@@ -1,0 +1,131 @@
+html {
+    height: 100%;
+}
+body {    
+    width: 100%;
+    height: 100%;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    background: #333333;
+    color: #ffffff;
+}
+a {
+    color: #e0e0e0;
+    text-decoration: none;
+}
+
+header.main-header {
+    font-family: 'Alegreya', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    width: 100%;
+    margin-top: 5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+header.main-header h1 {
+    padding: 0 0.1em;
+    margin: 0.2em 0;
+}
+header.main-header h2 {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-weight: 300;
+    padding: 0 0.1em;
+    margin: 0;
+}
+
+.main-nav {
+    margin: 2em 0;
+}
+.main-btn, .sub-btn {
+    display: block;
+    margin: 0.3em auto;
+    width: 90%;
+    font-family: 'Alegreya', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    background: #333333;
+    line-height: 2.5em;
+    font-size: 2em;
+    text-align: center;
+    box-shadow: 0 0 5px #6F6F6F;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.sub-nav {
+    margin: 0.2em 0;
+    text-align: center;
+}
+.sub-nav h1 {
+    display: block;
+    margin: 0 auto;
+    padding: 0 0.2em;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+.sub-nav h1 a:hover {
+    color: #9DC7FD;
+}
+.sub-nav h3 {
+    margin: 0 auto;
+    padding: 0 auto;
+    font-weight: 300;
+    font-size: 0.8em;
+    font-style: italic;
+    color: #FF9191;
+}
+.sub-btn {
+    display: inline-block;
+    width: 48%;
+    font-size: 1.3em;
+    margin: 0.2em auto;
+    line-height: 1.8em;
+    padding: 0 0.5em;
+}
+
+#toMap {
+    text-decoration: none;
+    background: #FFA300;
+}
+#toMap:hover, #toMap:active {
+    background: #FF8500;
+}
+#toList {
+    text-decoration: none;
+    background: #5973FF;
+}
+#toList:hover, #toList:active {
+    background: #3548AF;
+}
+
+section#theMap {
+    height: 100%;
+    width: 100%;
+}
+
+div.view-info {
+    width: 370px;
+    color: #333333;
+}
+div.view-info h1 {
+    font-family: 'Source Sans Pro';
+    font-weight: 300;
+    font-size: 1em;
+    margin: 0.1em;
+}
+div.view-info img {
+    width: 100%;
+}
+
+div.view-info-li {
+    text-align: center;
+}
+div.view-info-li h1 {
+    margin: 0.2em 0;
+    font-weight: 300;
+}
+div.view-info-li .view-img {
+    width: 300px;
+}
+div.view-info-li .static-map {
+    
+}

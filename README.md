@@ -1,4 +1,4 @@
-# [Marina Bay Fireworks Viewpoints]
+# Marina Bay Fireworks Viewpoints
 
 Marina Bay Fireworks Viewpoints is a small web tool that displays photographic vantage points around the Marina Bay area, 
 focusing specifically on the fireworks barge at the center of the Bay. 
